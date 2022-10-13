@@ -1,4 +1,5 @@
 import React from "react";
+import SavedShows from "../components/SavedShows";
 
 const Account = () => {
   return (
@@ -16,6 +17,7 @@ const Account = () => {
           </div>
         </div>
       </div>
+      <SavedShows />
     </>
   );
 };
